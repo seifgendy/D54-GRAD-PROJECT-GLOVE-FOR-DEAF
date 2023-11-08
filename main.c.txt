@@ -59,7 +59,7 @@ int main() {
 			LCD_writeString("Have a nice life");
 			_delay_ms(1000);
 		}
-		else if (digitalValue0<50 && digitalValue>195 && digitalValue1<115 && digitalValue2<60) {
+		else if (digitalValue0<44 && digitalValue>185 && digitalValue1<129 && digitalValue2<42) {
 			LCD_clear();
 			LCD_writeString("Perfect");
 			_delay_ms(1000);
@@ -86,22 +86,22 @@ int main() {
 					LCD_writeString("no room for mistakes");
 					_delay_ms(1000);
 				}
-		else if (digitalValue0<44 && digitalValue>182 && digitalValue1<129 && digitalValue2<40) {
+		else if (digitalValue0>44 && digitalValue<182 && digitalValue1<129 && digitalValue2<40) {
 					LCD_clear();
 					LCD_writeString("no way");
 					_delay_ms(1000);
 				}
-		else if (digitalValue0<44 && digitalValue<184 && digitalValue1<115 && digitalValue2<44) {
+		else if (digitalValue0>44 && digitalValue>182 && digitalValue1>129 && digitalValue2<40) {
 					LCD_clear();
 					LCD_writeString("ohh i forgot");
 					_delay_ms(1000);
 				}
-		else if (digitalValue0>44 && digitalValue>184 && digitalValue1<115 && digitalValue2>44) {
+		else if (digitalValue0>44 && digitalValue<182 && digitalValue1<129 && digitalValue2>40) {
 					LCD_clear();
 					LCD_writeString("my bad");
 					_delay_ms(1000);
 				}
-		else if (digitalValue0>44 && digitalValue<184 && digitalValue1>115 && digitalValue2>44) {
+		else if (digitalValue0>44 && digitalValue<182 && digitalValue1>129 && digitalValue2>40) {
 					LCD_clear();
 					LCD_writeString("sorry");
 					_delay_ms(1000);
