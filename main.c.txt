@@ -18,7 +18,7 @@ int main() {
 	u16 digitalValue0 = 0;
 	u16 digitalValue1 = 0;
 	u16 digitalValue2 = 0;
-	int voltage_mv = 0;
+	
 	
 
 	while (1) {
