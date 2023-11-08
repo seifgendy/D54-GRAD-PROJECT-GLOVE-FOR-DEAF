@@ -19,10 +19,7 @@ int main() {
 	u16 digitalValue1 = 0;
 	u16 digitalValue2 = 0;
 	int voltage_mv = 0;
-	int voltage_mv0 = 0;
-	int voltage_mv1= 0;
-	int voltage_mv2 = 0;
-	int voltage_mvf = 0;
+	
 
 	while (1) {
 		/* Read ADC value from Potentiometer */
